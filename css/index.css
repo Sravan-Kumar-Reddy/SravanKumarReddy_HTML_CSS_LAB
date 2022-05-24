@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #bfb6b6;
+}
+#header{
+    background-color:rgb(7, 56, 7);
+    padding:1%;
+    text-align:center;
+}
+#pageTitle{
+    color: white;
+    font-size: 40px;
+}
+#questionSection{
+    /* padding:2%; */
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+#optionsDiv{
+    display: inline-block;
+    width:100%;
+}
+#questionSection p{
+    color: blue;
+    font-weight: bold;
+}
+#optionsDiv button{
+    width: 40%;
+    margin:2%;
+    padding: 1%;
+    background-color: #01BBFF;
+    border: 1px solid;
+}
+#resultText{
+    text-align: center;
+    width: 60%;
+    margin: 7% 14%;
+    background-color: darkorange;
+    color: white;
+    padding: 5%;
+}
